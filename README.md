@@ -1,12 +1,10 @@
-# cpinstall
-cPInstall is a small bash script created at first for UnderHost customer then released to public. Its purpose is to give access to install, optimize, secure any common cPanel plugin within one click. Useful for novice and helpful for advanced users.
+# WHM Plugins coming soon! 
+# (public release is currently outdated) 
 
-# Description
+# cPInstall - Description
 cPInstall is a small bash script created at first for UnderHost customer then released to public. Its purpose is to give access to install, optimize, secure any common cPanel plugin within one click. Useful for novice and helpful for advanced users.
 
 http://underhost.com  - Offshore Hosting Solutions
-
-New version coming soon! (public release is currently outdated) 
 
 cPanel Setup, Secure and Plugins Web Site 
 
