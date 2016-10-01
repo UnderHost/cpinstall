@@ -10,31 +10,57 @@ cPanel Setup, Secure and Plugins Web Site
 
 # Features
 Install cPanel without issue.
+<br />
 Install cPanel DNS Only.
+<br />
 Force cPanel update.
+<br />
 Register with CloudLinux Network.
-Install CloudLinux on your system.
+<br />
+Install CloudLinux on your system
+<br />
 Install CSF Firewall.
+<br />
 Install htop Process Viewer.
+<br />
 Install logview plugin.
+<br />
 Change SSH port.
+<br />
 Fully update your system.
+<br />
 Secure your /tmp partition
+<br />
 Secure your /tmp partition on Virtuozzo VPS
+<br />
 Install Brute Force Detection
+<br />
 Disable Compilers
+<br />
 Enable Compilers
+<br />
 Install Fantastico Plugin
+<br />
 Install Softaculous Plugin
+<br />
 Install Clean Backup Plugin
+<br />
 Install Account DNS Check Plugin
+<br />
 Install cPnginx Admin Plugin
+<br />
 Remove cPnginx Admin Plugin
+<br />
 Install Ruby on Rails
+<br />
 Install FFMPEG
+<br />
 Install WHMSonic Plugin
+<br />
 Install Process Resource Monitor.
+<br />
 Install System Integrity Monitor
+<br />
 Install LiteSpeed Plugin
-and much more...
-much much more...
+<br />
+and much more... much much more...
