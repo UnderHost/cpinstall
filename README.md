@@ -1,14 +1,16 @@
-# WHM Plugins coming soon! 
-# (public release is currently outdated) 
+
+### (public release is currently outdated) 
 
 # cPInstall - Description
-cPInstall is a small bash script created at first for UnderHost customer then released to public. Its purpose is to give access to install, optimize, secure any common cPanel plugin within one click. Useful for novice and helpful for advanced users.
+cPInstall is a small bash script initially created for UnderHost customers and then released to the public. Its purpose was to provide access to install, optimize, and secure common cPanel plugins with one click. Although useful for novices and helpful for advanced users, this project has been discontinued.
+
+The product has been moved to a cPanel internal plugin, which we believe might not be as useful today. However, we will still release the cPanel plugin to the public once the code is wrapped up and our branding is removed, adopting the GPL license instead. This bash script will remain available, but some features may be potentially out of date.
 
 https://underhost.com  - Offshore Hosting Solutions
 
 cPanel Setup, Secure and Plugins Web Site 
 
-# Features
+# Features (Potentially Outdated)
 Install cPanel without issue.
 <br />
 Install cPanel DNS Only.
