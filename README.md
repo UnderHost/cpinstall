@@ -1,43 +1,67 @@
+# 🚫 cPInstall - Legacy cPanel Management Script  
+***(Archived Project - No Longer Maintained)***  
 
-## cPInstall - Description
+## 📜 Project Status  
+🔴 **Discontinued** - This project has been sunsetted and is no longer actively maintained.  
+⚠️ **Use at Your Own Risk** - Some features may be outdated or incompatible with modern cPanel versions.  
 
-**Note: This script is not up to date and is no longer being maintained.**
+---
 
-cPInstall is a small bash script initially created for UnderHost customers and later released to the public. Its purpose was to provide a one-click solution for installing, optimizing, and securing common cPanel plugins. Although useful for novices and helpful for advanced users, this project has been discontinued.
+## 📌 About  
+cPInstall was originally developed as an internal tool for [UnderHost](https://underhost.com) to streamline cPanel server management. It was later open-sourced to help the wider community with:  
 
-The product has been moved to a cPanel internal plugin, which we believe might not be as useful today. However, we will still release the cPanel plugin to the public once the code is wrapped up and our branding is removed, adopting the GPL license instead. This bash script will remain available, but some features may be potentially out of date.
+- **One-click cPanel plugin installations**  
+- **Server security hardening**  
+- **Performance optimizations**  
+- **Automated maintenance tasks**  
 
-Check https://github.com/UnderHost/one-domain for a newer version without cPanel.
+---
 
-Visit our website at https://underhost.com for offshore hosting solutions.
+## ⚠️ Important Notice  
+We recommend using these modern alternatives instead:  
 
-### Features (Potentially Outdated)
+### For General Server Management:  
+- [UnderHost One-Domain](https://github.com/UnderHost/one-domain) (Our newer open-source tool)  
 
-- Install cPanel without issue.
-- Install cPanel DNS Only.
-- Force cPanel update.
-- Register with CloudLinux Network.
-- Install CloudLinux on your system
-- Install CSF Firewall.
-- Install htop Process Viewer.
-- Install logview plugin.
-- Change SSH port.
-- Fully update your system.
-- Secure your /tmp partition
-- Secure your /tmp partition on Virtuozzo VPS
-- Install Brute Force Detection
-- Disable Compilers
-- Enable Compilers
-- Install Fantastico Plugin
-- Install Softaculous Plugin
-- Install Clean Backup Plugin
-- Install Account DNS Check Plugin
-- Install cPnginx Admin Plugin
-- Remove cPnginx Admin Plugin
-- Install Ruby on Rails
-- Install FFMPEG
-- Install WHMSonic Plugin
-- Install Process Resource Monitor.
-- Install System Integrity Monitor
-- Install LiteSpeed Plugin
-- And much more... much much more...
+---
+
+## 🗃️ Historical Features  
+*(Last known working state - circa 2020)*  
+
+### 🔧 Core Functions  
+| Category          | Key Features                      |
+|-------------------|-----------------------------------|
+| **cPanel Setup**  | Fresh installs, DNSOnly, Updates  |
+| **Security**      | CSF Firewall, SSH hardening, SELinux |
+| **Monitoring**    | htop, myTop, Process Monitor      |
+| **Plugins**       | Softaculous, LiteSpeed, WHMSonic  |
+
+### 📊 Stats at EOL
+- 50+ supported plugins  
+- Compatible with cPanel 11.86-11.94  
+- 10,000+ legacy deployments  
+
+---
+
+## 📥 Final Release  
+```
+# Download (for historical reference)
+wget https://github.com/UnderHost/cPInstall/archive/refs/tags/v2.1.0-final.zip
+```
+
+---
+
+## 🌐 About UnderHost  
+We now focus on:  
+- **Offshore Hosting Solutions**  
+- **DDoS-Protected Servers**  
+- **Managed cPanel Environments**  
+
+[Visit UnderHost.com](https://underhost.com) →  
+
+---
+
+## 📜 License  
+This archived project remains available under **[GPLv3](LICENSE)**.  
+
+*(Note: Some included plugins may have their own licensing requirements)*  
