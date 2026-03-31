@@ -1,67 +1,61 @@
-# 🚫 cPInstall - Legacy cPanel Management Script  
-***(Archived Project - No Longer Maintained)***  
+# cPInstall (Modernized Community Build)
 
-## 📜 Project Status  
-🔴 **Discontinued** - This project has been sunsetted and is no longer actively maintained.  
-⚠️ **Use at Your Own Risk** - Some features may be outdated or incompatible with modern cPanel versions.  
+`cPInstall` is a refreshed cPanel helper script that keeps the classic all-in-one menu while modernizing execution safety, logging, and installer sources.
 
----
+## What changed in the modern build
 
-## 📌 About  
-cPInstall was originally developed as an internal tool for [UnderHost](https://underhost.com) to streamline cPanel server management. It was later open-sourced to help the wider community with:  
+- safer Bash defaults (`set -Eeuo pipefail`)
+- package-manager detection (`dnf`, `yum`, `apt`)
+- HTTPS downloads for external installer scripts
+- unified logging and error helpers
+- all classic menu commands now map to implemented functions
 
-- **One-click cPanel plugin installations**  
-- **Server security hardening**  
-- **Performance optimizations**  
-- **Automated maintenance tasks**  
+## Menu operations (1-16)
 
----
+### cPanel
+1. Install cPanel  
+2. Install cPanel DNSOnly  
+3. Force cPanel Update
 
-## ⚠️ Important Notice  
-We recommend using these modern alternatives instead:  
+### Security
+4. Install CSF Firewall  
+5. Install Malware Detection Tools (ClamAV, rkhunter, Maldet)  
+6. Secure `/tmp` partition flags (`nodev,nosuid,noexec`)  
+7. Change SSH Port  
+8. Disable SELinux  
+17. Upgrade CSF 14 -> 15
 
-### For General Server Management:  
-- [UnderHost One-Domain](https://github.com/UnderHost/one-domain) (Our newer open-source tool)  
+### Performance
+9. Install hTop  
+10. Install myTop  
+11. Install Process Monitor (`btop`/`glances`)  
+12. Run MySQL Tuner
 
----
+### Plugins & Addons
+13. Install LiteSpeed  
+14. Install CloudLinux  
+15. Install Softaculous  
+16. Install FFMPEG
 
-## 🗃️ Historical Features  
-*(Last known working state - circa 2020)*  
+## Usage
 
-### 🔧 Core Functions  
-| Category          | Key Features                      |
-|-------------------|-----------------------------------|
-| **cPanel Setup**  | Fresh installs, DNSOnly, Updates  |
-| **Security**      | CSF Firewall, SSH hardening, SELinux |
-| **Monitoring**    | htop, myTop, Process Monitor      |
-| **Plugins**       | Softaculous, LiteSpeed, WHMSonic  |
-
-### 📊 Stats at EOL
-- 50+ supported plugins  
-- Compatible with cPanel 11.86-11.94  
-- 10,000+ legacy deployments  
-
----
-
-## 📥 Final Release  
-```
-# Download (for historical reference)
-wget https://github.com/UnderHost/cPInstall/archive/refs/tags/v2.1.0-final.zip
+```bash
+chmod +x cpinstall.sh
+sudo ./cpinstall.sh
 ```
 
----
+## Paths
 
-## 🌐 About UnderHost  
-We now focus on:  
-- **Offshore Hosting Solutions**  
-- **DDoS-Protected Servers**  
-- **Managed cPanel Environments**  
+- Log file: `/var/log/underhost_cpanel.log`
+- Config placeholder: `/etc/underhost/cpanel.conf`
 
-[Visit UnderHost.com](https://underhost.com) →  
+## Important notes
 
----
+- External installer URLs and package names can change over time; verify in staging before production.
+- Some operations depend on specific distro repositories or licenses.
+- CSF install source is pinned to `https://backup.underhost.com/mirror/configserver/csf.tgz`.
+- CSF migration script source is `https://backup.underhost.com/mirror/configserver/migrate_csf.sh`.
 
-## 📜 License  
-This archived project remains available under **[GPLv3](LICENSE)**.  
+## License
 
-*(Note: Some included plugins may have their own licensing requirements)*  
+GPLv3. See [LICENSE](LICENSE).
